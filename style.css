@@ -1,0 +1,477 @@
+*{
+outline: none !important
+}
+
+
+
+div.navbar-header{
+	height:80px;
+}
+
+#details img{
+	width:100%;
+	margin-bottom:10px;
+}
+
+#details{
+	width:80%;
+	margin:0 auto;
+}
+
+#details div{
+	margin-bottom:30px;
+}
+
+#details p{
+	line-height:16px;
+}
+
+#btn_zakaz_in_details{
+	width:200px;
+	margin:0 auto;
+}
+
+a:link{
+	color:black;
+}
+
+
+
+#myModal,#myModal2{
+	background-color:white;
+	width:30%;
+	min-width:210px;
+	margin:100px auto;
+	padding:30px;
+	border-radius:30px;
+	color:black;
+	height:450px;
+}
+
+#form_header{
+	margin:0;
+}
+
+#myModal input,#myModal2 input{
+	width:100%;
+	margin-top:20px;
+	padding:10px;
+}
+
+#myModal h1,#myModal2 h1{
+	font-size:20px;
+	padding:0;
+	text-align:center;
+}
+
+@media screen and (max-width:800px)
+{
+	#myModal,#myModal2{
+	margin:50px auto;
+	border-radius:10px;
+}
+
+#myModal h1,#myModal2 h1{
+	font-size:16px;
+}
+}
+
+#slider_otzyvov img{
+	width:140px;
+	height:140px;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+#slider_otzyvov a{
+	display:block;
+
+}
+
+p.client_text,p.client_name{
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+}
+
+p.client_text{
+	color:#e84b4b;
+	margin-left:30%;
+	margin-right:30%;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+a.client_vk{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#e84b4b;
+}
+
+p.client_profession{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	
+}
+
+#contactForm{
+	margin:80px auto;
+}
+
+#contactForm input{
+	padding:20px;
+	width:40%;
+	min-width:150px;
+	margin:0 auto;
+	display:block;
+}
+
+#phone,#name{
+	width:50%;
+	border-radius:10px;
+}
+
+#bottom_side{
+	height:50px;
+    padding: 10px; /* Поля вокруг текста */
+    background: black; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+#partners img{
+	width:100%;
+	padding:1px;
+	margin:0;
+}
+
+#partners h1, #partners h3{
+	text-align:left;
+}
+
+#partners h3{
+	text-align:left;
+	
+	font-size:2vw;
+}
+
+#zayavka h3{
+	text-align:center;
+	font-size:2vw;
+}
+
+div.o_dostavke{
+	width:80%;
+	display:block;
+	margin:70px auto;
+	font-size:14px;
+}
+
+.o_dostavke img{
+	float:left;
+	width:100px;
+	border:1px black solid;
+	border-radius:50px;
+	margin-right:20px;
+}
+
+@media screen and (max-width: 600px) {
+	.o_dostavke img{
+	width:70px;
+}
+	.o_dostavke h3{
+	font-size:14px;
+}
+
+	div.o_dostavke{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+}
+
+
+header{
+	background: url(img/header_background.jpg);
+	background-size:cover;
+	height:500px;
+	color:white;
+	font-size:14px;
+	box-shadow:0 0 0 340px rgba(0, 0, 0, 0.33) inset;
+	position:relative;
+}
+
+
+
+#logo{
+	position:absolute;
+	top:10px;
+	left:10px;
+	z-index:100;
+	background-color:white;
+	border-radius:60px;
+}
+
+#logo_footer{
+	width:140px;
+	height:100px;
+	margin-bottom:20px;
+
+}
+
+
+#backcall_button{
+	z-index:100;
+	background:#cdffff;		
+	border-radius:30px;
+	padding:10px;
+	font-weight:bold;
+}	
+	
+#phone_number{
+	line-height:50px;
+	font-weight:bold;
+	font-size:20px;
+	
+}	
+
+@media screen and(max-width:500px)
+{
+	#phone_number{
+	position:absolute;
+	font-size:5vw;
+}	
+}
+
+nav{
+	
+	padding:20px;
+	background: white;
+	color:black;
+	font-size:16px;
+	text-align:center;
+	
+}
+
+.img_icon{
+	width:180px;
+	height:85px;
+	margin-right:20px;
+	float:left;
+	background-color: #cdffff;
+	border-radius:90px;
+}
+
+.text_about_us{
+	padding:10px;
+	margin-right:20px;
+	font-size:20px;
+}
+
+div.content_about_us{
+	margin-bottom:100px;
+}
+
+
+
+@media screen and (max-width: 440px) {
+
+div.content_about_us{
+	margin-bottom:0px;
+}
+.text_about_us{
+	font-size:14px;
+}
+
+.img_icon{
+	width:123px;
+	height:57 px;
+}
+}
+
+@media screen and (max-width: 330px) {
+
+.img_icon{
+	width:82px;
+	height:38 px;
+}
+}
+
+
+
+header h1{
+	padding-top:50px;
+	text-align:center;
+	font-weight:bold;
+	font-size:6vw;
+}
+
+header h2{
+	padding-bottom:50px;
+}
+
+h2{
+text-align:center;
+padding-bottom:0px;
+}
+
+main h1{
+	font-weight:bold;
+	font-size:4vw;
+	color:black;
+	text-align:center;
+	margin:40px;
+}
+
+@media screen and (max-width:650px)
+{
+	main h1{
+		font-size:6vw;
+	}
+	#partners h3, #zayavka h3{
+		font-size:4vw;
+}
+	h2{
+		font-size:4vw;
+	}
+}
+
+@media screen and (max-width:350px)
+{
+	main h1{
+		font-size:7vw;
+	}
+	#partners h3, #zayavka h3{
+		font-size:5vw;
+}
+}
+
+.catalog_item img{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:100%;
+	max-width:560px;
+	max-height:320px;
+}
+
+.item_name{
+	font-weight:bold;
+	font-size:20px;
+}
+
+.price{
+	font-size:20px;
+}
+
+.green{
+	color:#5cd875;
+}
+
+.gray{
+	color:#d5d5d5;
+}
+
+.red_button{
+ background-color:#e84b4b;
+ font-size:12px;
+ font-weight:bold;
+ color:white;
+ padding:10px;
+ border-radius:10px;
+}
+
+.white_button{
+ background-color:white;
+ font-size:12px;
+ font-weight:bold;
+ color:black;
+ padding:10px;
+ border-radius:10px;
+}
+
+.dostavka,#zayavka{
+	width:100%;
+	background-color: #cdffff;
+	text-align:center;
+	padding:50px;
+	margin-top:50px;
+
+}
+
+#zayavka{
+	height:600px;
+	background-image:url(img/zayavka_4icon_1column.png), url(img/zayavka_4icon_2column.png);
+	min-width:270px;
+	background-position:left ,right;
+	background-repeat:no-repeat, no-repeat ;
+}
+
+
+
+.dostavka{
+	height:450px;
+}
+
+@media screen and (max-width:990px)
+{
+	.dostavka{
+	height:880px;
+}
+}
+
+@media screen and (max-width:330px)
+{
+	.dostavka {
+	height:1030px;
+}
+}
+
+#partners {
+	width:100%;
+	background-color: #cdffff;
+	text-align:center;
+	margin-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.dostavka img{
+	width:100px;
+	background-color: #cdffff;
+}
+
+footer{
+	margin-top:30px;
+	text-align:center;
+}
+
+.footer-right{
+	text-align:left;
+}
+
+.cities{
+	font-size:12px;
+	line-height:12px;
+}
+
+
+.thumb {
+padding:5px;
+
+}
+
+.thumb img {
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	box-shadow: 0px 0px 2px #000000;
+}
+.thumb img:hover {
+	-moz-transform: scale(1.1); /* эффект трансформации для Firefox до версии 16.0 */
+	-webkit-transform: scale(1.1); /* эффект трансформации для Chrome до версии 26.0, Safari, Android и iOS */
+	-o-transform: scale(1.1); /* эффект трансформации для Opera до версии 12.10 */
+	-ms-transform: scale(1.1); /* эффект трансформации для IE 9.0 */
+	transform: scale(1.1);
+	z-index:100;
+}
